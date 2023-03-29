@@ -32,4 +32,4 @@ def filter_numbers(number_list, filter_type):
     <<< [2, 4]
     """
     if filter_type == ODD:
-        return [i for i in number_list if i % 0 != 0]
+        return [i for i in number_list if i % 2 != 0]
